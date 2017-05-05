@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Blindary/CreateBook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Blindary</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="first.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="row">
+    <div class="col-sm-2" sidenav></div>
+    <div class="col-sm-8">
+        <form action="createBook.php" method="post">
+        <div class="col-sm-6">
+            <label for="isbn">ISBN</label>
+            <input class="form-control" id="isbn" type="text">
+        </div>
+        <div class="col-sm-6">
+            <label for="bookName">ชื่อหนังสือ</label>
+            <input class="form-control" id="bookName" type="text">
+        </div>
+        <div class="col-sm-6">
+            <label for="categoryID">หมวดหมู่</label>
+            <input class="form-control" id="categoryID" type="text">
+        </div>
+        <div class="col-sm-6">
+            <label for="noOfChapter">จำนวนบท</label>
+            <input class="form-control" id="noOfChapter" type="text">
+        </div>
+        <div class="col-sm-6">
+            <label for="publish">สำนักพิมพ์</label>
+            <input class="form-control" id="publish" type="text">
+        </div>
+        <div class="col-sm-6">
+            <label for="author">ชื่อผู้แต่ง</label>
+            <input class="form-control" id="author" type="text">
+        </div>
+        <div class="col-sm-6">
+            <label for="translator">ชื่อผู้แปล</label>
+            <input class="form-control" id="translator" type="text">
+        </div>
+        
+        <div class="col-sm-12">
+            <center><button type="button" class="btn btn-default btn-lg"><a href="testsound.html">Submit</a></button></center>
+        </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
